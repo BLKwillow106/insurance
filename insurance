@@ -1,0 +1,12 @@
+#include <iostream>
+#include <iomanip>
+ 
+int main (){
+    double replacementCost, minInsurance;
+    std::cout << "Enter the replacement cost of the building: $";
+    std::cin >> replacementCost;
+    minInsurance = replacementCost * 0.8;
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "The minimum insurance amount required is: $" << minInsurance << std::endl;
+    return 0;
+}
